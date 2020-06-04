@@ -12,10 +12,66 @@
 
 <p>This is probably the most boring and useless blog on the Internet. I don't think anyone should read it. There's nothing interesting here.</p>
 
-<p>But if someone wants, I have an <a href="/rss.xml">RSS feed</a>.</p>
+<p>But if someone wants, I have an <a href="https://mariansam.github.io/blog/rss.xml">RSS feed</a>.</p>
 
 
 <!-- LB -->
+<div class='entry'>
+<h2 id='the-agony-of-trying-to-manage-a-blog-site'>The Agony of Trying to Manage a Blog Site</h2>
+<small>[<a href='#the-agony-of-trying-to-manage-a-blog-site'>link</a>&mdash;<a href='blog/the-agony-of-trying-to-manage-a-blog-site.html'>standalone</a>]</small>
+<p>A few days ago I got this homework. Start your own blog and write a few posts. Okey, sounds easy. But there are multiple ways of managing a blog site. Which one is the best?</p>
+
+<p>(at the time of writing this I just realized that I suck at English and at writing)</p>
+
+<h2>Ready-to-use sites</h2>
+
+<p>Of course. I could use something normie-friendly such as <a href="https://www.blogger.com/">Blogger</a> by Google or Czech <a href="http://blog.cz/">Blog.cz</a>. And yes, that's pretty simple, you just select a template, fill in some information, click <em>New Post</em> and that's it.</p>
+
+<p>But it's very limited. You're not in control of your website. You're dependent on the company that manages the site. What if their servers go down? What if the company goes bankrupt? I want my blog site to be mine. I don't like being dependent on some big company even for simple thing such as running my own blog.</p>
+
+<h2>WordPress</h2>
+
+<p>We all know it and a lot of pages, even blogs, use WordPress. I manage two sites running WordPress and I hate it. It's bloated. It uses PHP. I hate PHP. Even though it may run on your server, you still don't have control over it. I hate these drag-and-drop solutions based on some template. You don't actually know what's running on your site, because WordPress tries to hide the PHP and the HTML from you. I'm a developer, Linux user. I know HTML. And I do want to write the HTML from the ground up. I don't want to use some template and then drag and drop some elements.</p>
+
+<p>And after some time people eventually come to the point I call plugin-hell. It's the time when you have tens of plugins installed, all of them are these all-in-one solutions and sometimes you even have some plugins doing the exact opposite thing.</p>
+
+<p>And it's slow as hell. Have a look at <a href="https://www.thewanderlustherald.com/">this site</a>. I spent several days trying to make it faster, but it still takes 40 seconds to load it. And it downloads 30 MB, that's ten times more than my Facebook main site.</p>
+
+<h2>Drupal, Joomla, CMS Made Simple, etc.</h2>
+
+<p>No. Just... just no.</p>
+
+<p>It's PHP most of the time. It's bloated. It's huge. It's slow. I hate it.</p>
+
+<hr>
+
+<p>And then &ndash; I found it.</p>
+
+<h2>lb</h2>
+
+<p>I found <a href="https://github.com/LukeSmithxyz/lb">lb</a> by <a href="https://www.youtube.com/LukeSmithxyz">Luke Smith</a>. It's cool. It's simple. It's managed from the command line. And...</p>
+
+<p>Wait for it...</p>
+
+<p><b>It's not PHP!</b></p>
+
+<p>lb is written in 80 lines of <code>bash</code>. Yes, you hear right. Not 80 thousand. Not 80 hundered. Not 800. Just 80.</p>
+
+<p>Because it's that simple, I can customize everything. I'm still using Luke's default site, but I'm able to recreate the whole site and change the script and it would still work. And it has built-in support for RSS.</p>
+
+<p>Creating new drafts is as simple as <code>./lb n</code>. I can edit them from vim, because it's the superior editor. Not like some drag-and-drop WYSIWYG normie editor which can't even handle <code>code blocks</code> and en-dashes (&ndash;).</p>
+
+<p>Publishing existing drafts is just <code>./lb p</code>. It automatically adds new entry to the <a href="https://mariansam.github.io/blog/">main overview page</a>, to the <a href="https://mariansam.github.io/blog/blogindex.html">blog index</a>, to the <a href="https://mariansam.github.io/blog/rss.xml">RSS feed</a> and creates a new standalone page just with this one post.</p>
+
+<p>Of course, it can do more things, but I don't use any of them...</p>
+
+<p>All that with just 80 lines of bash.</p>
+
+<p><b>Fuck PHP.</b></p>
+<small>Thu, 04 Jun 2020 21:56:12 +0200</small>
+</div>
+
+
 <div class='entry'>
 <h2 id='first-blog-post'>First Blog Post</h2>
 <small>[<a href='#first-blog-post'>link</a>&mdash;<a href='blog/first-blog-post.html'>standalone</a>]</small>
