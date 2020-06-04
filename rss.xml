@@ -12,6 +12,28 @@
 <!-- LB -->
 
 <item>
+<title>First Blog Post</title>
+<guid>https://mariansam.github.io/blog/2020.html#first-blog-post</guid>
+<pubDate>Thu, 04 Jun 2020 12:33:09 +0200</pubDate>
+<description><![CDATA[
+<p>This looks like a new blog post...!</p>
+
+<p>Maybe some <b>bold</b> text.</p>
+
+<p>And some <em>emphasis</em> text.</p>
+
+<p>And some <code>code</code> block.</p>
+
+<p>Even a<a href="https://twitter.com/MarianSamal">link</a> to my Twitter!</p>
+
+<p>This can do anything, even a <font color="red">red</font> text.</p>
+
+<p>And emojis 🎉</p>
+]]></description>
+</item>
+
+
+<item>
 <title>Another test Post</title>
 <guid>https://mariansam.github.io/blog/2020.html#another-test-post</guid>
 <pubDate>Thu, 04 Jun 2020 11:46:56 +0200</pubDate>
