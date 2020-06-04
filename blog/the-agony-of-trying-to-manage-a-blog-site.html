@@ -1,21 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/css" href="rss.css" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-
-<channel>
-<title>Marian's Boring Blog</title>
-<description>This is probably the most boring and useless blog on the Internet. I don't think anyone should read it. There's nothing interesting here.</description>
-<language>en-us</language>
-<link>http://mariansam.github.io/blog/rss.xml</link>
-<atom:link href="http://mariansam.github.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-
-<!-- LB -->
-
-<item>
+<html>
+<head>
 <title>The Agony of Trying to Manage a Blog Site</title>
-<guid>https://mariansam.github.io/blog/2020.html#the-agony-of-trying-to-manage-a-blog-site</guid>
-<pubDate>Thu, 04 Jun 2020 21:56:12 +0200</pubDate>
-<description><![CDATA[
+<link rel='stylesheet' type='text/css' href='../style.css'>
+<meta charset='utf-8'/>
+</head>
+<body>
+<h1>The Agony of Trying to Manage a Blog Site</h1>
+<small>[<a href='../2020.html#the-agony-of-trying-to-manage-a-blog-site'>link</a>&mdash;<a href='the-agony-of-trying-to-manage-a-blog-site.html'>standalone</a>]</small>
 <p>A few days ago I got this homework. Start your own blog and write a few posts. Okey, sounds easy. But there are multiple ways of managing a blog site. Which one is the best?</p>
 
 <p>(at the time of writing this I just realized that I suck at English and at writing)</p>
@@ -58,38 +49,14 @@
 
 <p>Creating new drafts is as simple as <code>./lb n</code>. I can edit them from vim, because it's the superior editor. Not like some drag-and-drop WYSIWYG normie editor which can't even handle <code>code blocks</code> and en-dashes (&ndash;).</p>
 
-<p>Publishing existing drafts is just <code>./lb p</code>. It automatically adds new entry to the <a href="/">main overview page</a>, to the <a href="blogindex.html">blog index</a>, to the <a href="rss.xml">RSS feed</a> and creates a new standalone page just with this one post.</p>
+<p>Publishing existing drafts is just <code>./lb p</code>. It automatically adds new entry to the <a href="https://mariansam.github.io/blog/">main overview page</a>, to the <a href="https://mariansam.github.io/blog/blogindex.html">blog index</a>, to the <a href="https://mariansam.github.io/blog/rss.xml">RSS feed</a> and creates a new standalone page just with this one post.</p>
 
 <p>Of course, it can do more things, but I don't use any of them...</p>
 
 <p>All that with just 80 lines of bash.</p>
 
 <p><b>Fuck PHP.</b></p>
-]]></description>
-</item>
+<footer>by <strong><a href='https://mariansam.github.io/blog/'>Marian Šámal</a></strong></footer>
+</body>
 
-
-<item>
-<title>First Blog Post</title>
-<guid>https://mariansam.github.io/blog/2020.html#first-blog-post</guid>
-<pubDate>Thu, 04 Jun 2020 12:33:09 +0200</pubDate>
-<description><![CDATA[
-<p>This looks like a new blog post...!</p>
-
-<p>Maybe some <b>bold</b> text.</p>
-
-<p>And some <em>emphasis</em> text.</p>
-
-<p>And some <code>code</code> block.</p>
-
-<p>Even a<a href="https://twitter.com/MarianSamal">link</a> to my Twitter!</p>
-
-<p>This can do anything, even a <font color="red">red</font> text.</p>
-
-<p>And emojis 🎉</p>
-]]></description>
-</item>
-
-
-</channel>
-</rss>
+</html>
